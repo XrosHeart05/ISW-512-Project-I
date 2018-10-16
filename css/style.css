@@ -105,11 +105,30 @@ footer{
 }*/
 
 .search_tool{
-    margin-top: 15px;
+    margin-top: 10px;
     float: right;
     margin-right:10px;  
 }
 
 .search_box{
-    padding: 4px;
+    padding: 2px;
+    padding-bottom: 4px;
+    padding-left: 8px; 
+    width: 240px;
+    height: 32px;
+    background: #13B55C;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+input::placeholder{
+    color: #A9E4C3;
+    font-size: 16px; 
+}
+
+.ico{
+    color: #ffffff;
+    font-size: 18px;
 }
