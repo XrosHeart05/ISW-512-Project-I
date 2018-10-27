@@ -1,0 +1,50 @@
+*{
+    font-family: 'Gadugi';
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+    header nav ul li{
+        width: 100%;
+    }
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav {
+    background-color: #43a047;
+}
+
+header nav ul li { 
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    display: block;
+    padding: 1.8em;
+}
+
+header nav ul li a:hover{
+    background-color: #000000;
+    transition: 0.6s;
+}
+
+.tico-rides-main{
+    background-color: #2f8433;
+    color: #ffffff;
+    border-right: solid #1c667c 5px;
+}
+
+.tico-rides-main :hover{
+    background-color: #1c667c;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0s;
+}
