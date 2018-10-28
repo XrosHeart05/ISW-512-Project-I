@@ -20,6 +20,18 @@ body{
     background-color: #14bc9c;
 }
 
+body::-webkit-scrollbar {
+    width: 0.7em;
+    height: 0.7em;
+    background: #14bc9c; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #2f6ad8;
+    border-radius: 10px;
+    border-right: solid #14bc9c 2px;
+}
+
 h1{
     display: flex;
     justify-content: center;
@@ -52,6 +64,31 @@ header nav ul li a:hover{
     height: 100px;
 }
 
+.results-ride-1{
+    margin: 0.5em 10em;
+}
+
+.results-ride-1 table{
+    width: 100%;
+    padding: 1em;
+    border: solid #09edc1 2px;
+    border-collapse: collapse;
+}
+
+.results-ride-1 table tr{
+    border: solid #09edc1 2px;
+}
+
+.results-ride-1 table tr th{
+    background-color: #005b82;
+    color: #fbc28d; 
+}
+
+.results-ride-1 table tr td{
+    text-align: center;
+    border: solid #09edc1 2px;
+}
+
 .search-ride-1{
     margin: 0.5em 10em;
 }
@@ -61,12 +98,12 @@ header nav ul li a:hover{
     justify-content: space-around;
     margin: 0.5em 1em;
     padding: 16px 32px;
-    border: solid #09edc1 1px;
+    border: solid #09edc1 2px;
     border-radius: 10px;
 }
 
 .search-ride-2 form button{
-    width: 20%;
+    width: 25%;
     border: solid #005b82 1px;
     border-radius: 6px;
     background: #09edc1;
@@ -82,17 +119,23 @@ header nav ul li a:hover{
 }
 
 .search-ride-2 form select{
-    width: 20%;
+    width: 25%;
+    border: solid #fc524e 1px;
     border-radius: 6px;
-    background: #09edc1;
-    border-color: #ffffff;
-    color: #004c3e;
+    background: #0d9da8;
+    color: #fbc28d;
+}
+
+.search-ride-2 form select:hover{
+    border: solid #fbc28d 2px;
+    color: #ff000d;
+    background: #fc524e;
 }
 
 .tico-rides-main{
     background-color: #2f8433;
     color: #ffffff;
-    border-right: solid #1c667c 5px;
+    border-right: solid #1c667c 3px;
 }
 
 .tico-rides-main :hover{
