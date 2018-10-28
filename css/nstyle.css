@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     header nav ul li{
         width: 100%;
     }
@@ -29,7 +29,29 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background: #2f6ad8;
     border-radius: 10px;
-    border-right: solid #14bc9c 2px;
+    border-right: solid #14bc9c 1px;
+}
+
+.button-login{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-login button{
+    background: #005b82;
+    border: solid #ffffff 2px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 0.4em;
+    margin-right: 0.4em;  
+    padding: 1em 2em; 
+}
+
+.button-login button:hover{
+    background: #ffffff;
+    color: #005b82;
+    border: solid #005b82 2px;
 }
 
 h1{
@@ -62,6 +84,7 @@ header nav ul li a:hover{
     display: flex;
     justify-content: center;
     height: 100px;
+    margin: 0% 10%;
 }
 
 .results-ride-1{
@@ -128,7 +151,7 @@ header nav ul li a:hover{
 
 .search-ride-2 form select:hover{
     border: solid #fbc28d 2px;
-    color: #ff000d;
+    color: #ffffff;
     background: #fc524e;
 }
 
