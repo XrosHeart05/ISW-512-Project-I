@@ -114,6 +114,20 @@ header nav ul li a:hover{
     margin: 0% 10%;
 }
 
+.logo-login{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 12em;
+}
+
+.logo-sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 7em;
+}
+
 .login-box{
     display: flex;
     justify-content: center;
@@ -121,7 +135,7 @@ header nav ul li a:hover{
     margin: 0em 20%;
     border: solid #09edc1 2px;
     border-radius: 10px;
-    height: 260px;
+    min-height: 240px;
 }
 
 .login-box form{ 
@@ -134,8 +148,8 @@ header nav ul li a:hover{
     display: flex;
     border: none;
     border-radius: 10px;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 0.6em; 
@@ -144,11 +158,8 @@ header nav ul li a:hover{
     color: #ffffff;
 }
 
-.logo-login{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 12em;
+.login-box form input::placeholder{
+    color: #ffffff;
 }
 
 .results-ride-1{
@@ -219,9 +230,65 @@ header nav ul li a:hover{
     background: #fc524e;
 }
 
-.sign-up-box{
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 20%;
+    border: solid #09edc1 2px;
+    border-radius: 10px;
+    min-height: 240px;
+}
+
+.sign-up-box form{
+    margin: 2em 1em;
+    width: 80%;
+    justify-content: center;
+}
+
+.sign-up-box form input{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.6em; 
+    width: 95%;
+    background-color: #005b82;
+    color: #ffffff;
+}
+
+.sign-up-box form input::placeholder{
+    color: #ffffff;
+}
+
+.sign-up-box-login{
     display: flex;
     justify-content: center; 
+}
+
+.sign-up-button-box{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+}
+
+.sign-up-button-box button{
+    padding: 1em 4em;
+    background-color: #fc524e;
+    color: #ffffff;
+    border: solid #ffffff 1.2px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up-button-box button:hover{
+    background-color: #ffffff;
+    color: #fc524e;
+    border: solid #fc524e 2px;
 }
 
 .tico-rides-main{
