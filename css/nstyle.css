@@ -14,6 +14,7 @@
 a{
     text-decoration: none;
     text-align: center;
+    color: #ffffff;
 }
 
 body{
@@ -80,11 +81,74 @@ header nav ul li a:hover{
     transition: 0.6s;
 }
 
+.log-button-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 1em;
+    width: 80%;
+    height: 40px;
+}
+
+.log-button-login button{
+    width: 20%;
+    height: 70%;
+    border-radius: 10px;
+    border: solid #ffffff 1px;
+    background-color: #fc524e;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.log-button-login button:hover{
+    background-color: #ffffff;
+    border: solid #fc524e 1.5px;
+    color: #fc524e;
+}
+
 .logo{
     display: flex;
     justify-content: center;
     height: 100px;
     margin: 0% 10%;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 20%;
+    border: solid #09edc1 2px;
+    border-radius: 10px;
+    height: 260px;
+}
+
+.login-box form{ 
+    margin: 2em 1em;
+    width: 80%;
+    justify-content: center;
+}
+
+.login-box form input{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.6em; 
+    width: 95%;
+    background-color: #005b82;
+    color: #ffffff;
+}
+
+.logo-login{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 12em;
 }
 
 .results-ride-1{
@@ -153,6 +217,11 @@ header nav ul li a:hover{
     border: solid #fbc28d 2px;
     color: #ffffff;
     background: #fc524e;
+}
+
+.sign-up-box{
+    display: flex;
+    justify-content: center; 
 }
 
 .tico-rides-main{
