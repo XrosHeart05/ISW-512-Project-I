@@ -55,6 +55,46 @@ body::-webkit-scrollbar-thumb {
     border: solid #005b82 2px;
 }
 
+.dashboard-list-rides-menu-1{
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-list-rides-menu-2{
+    margin: 0.8em 0px;
+    width: 50%;
+    justify-content: flex-start;
+    border: solid #000000 1px;
+    border-radius: 10px;
+}
+
+.dashboard-list-rides-menu-2 h4{
+    margin: 0.4em 0.8em;
+}
+
+.dashboard-list-rides-menu-2 table{
+    width: 96%;
+    margin: 0.8em 0.6em;
+    border: solid #09edc1 2px;
+    border-collapse: collapse;
+    margin-bottom: 4em;
+}
+
+.dashboard-list-rides-menu-2 table tr{
+    border: solid #09edc1 2px;
+}
+
+.dashboard-list-rides-menu-2 table tr th{
+    background-color: #005b82;
+    color: #fbc28d;
+}
+
+.dashboard-list-rides-menu-2 table tr td{
+    color:#ffffff;
+    text-align: center;
+    border: solid #09edc1 2px;
+}
+
 .dashboard-menu{
     display: flex;
     justify-content: center;
