@@ -248,6 +248,12 @@ header nav ul li a:hover{
     height: 12em;
 }
 
+.logo-settings{
+    display: flex;
+    justify-content: center;
+    margin: 0.4em 0px;
+}
+
 .logo-sign-up{
     display: flex;
     justify-content: center;
@@ -362,6 +368,25 @@ header nav ul li a:hover{
     border: solid #fbc28d 2px;
     color: #ffffff;
     background: #fc524e;
+}
+
+.settings-main-1{
+    display: flex;
+    justify-content: center;
+}
+
+.settings-main-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: solid #000000 1px;
+    border-radius: 10px;
+    margin: 0.4em 0.6em;
+    padding: 0.4em;
+}
+
+.settings-main-2 form input{
+    display: block;
 }
 
 .sign-up-box {
