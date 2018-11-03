@@ -327,6 +327,55 @@ header nav ul li a:hover{
     border: solid #09edc1 2px;
 }
 
+.rides-container-1{
+    display: flex;
+    justify-content: center;
+}
+
+.rides-submenu-1{
+    width: 50%;
+}
+
+.rides-submenu-1 form{
+    margin: 3em 0.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rides-submenu-1 form button{
+    padding: 0.8em 6em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rides-submenu-1 form #add{
+    background-color: #129919;
+    color: #ffffff;
+}
+
+.rides-submenu-1 form #add:hover{
+    background-color: #ffffff;
+    color: #129919;
+    border: solid #129919 1.6px; 
+}
+
+.rides-submenu-1 form #edit{
+    background-color: #2f6ad8;
+    color: #ffffff; 
+}
+
+.rides-submenu-1 form #edit:hover{
+    background-color: #ffffff;
+    color: #2f6ad8;
+    border: solid #2f6ad8 1.6px;
+}
+
+.rides-submenu-1 h2{
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
 .search-ride-1{
     margin: 0.5em 10em;
 }
