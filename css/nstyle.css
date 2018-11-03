@@ -422,6 +422,13 @@ header nav ul li a:hover{
     padding: 0.4em 3.6em;
 }
 
+.settings-main-2-1 #cancel:hover{
+    background-color: #ffffff;
+    color: #e2201d;
+    font-weight: bold;
+    border: solid #e2201d 1.2px;
+}
+
 .settings-main-2-1 #save{
     background: none;
     background-color: #129919;
@@ -429,6 +436,13 @@ header nav ul li a:hover{
     border-radius: 10px;
     color: #ffffff;
     padding: 0.4em 6em;
+}
+
+.settings-main-2-1 #save:hover{
+    background-color: #ffffff;
+    color: #129919;
+    font-weight: bold;
+    border: solid #129919 1.2px;
 }
 
 .sign-up-box {
