@@ -327,6 +327,65 @@ header nav ul li a:hover{
     border: solid #09edc1 2px;
 }
 
+.rides-add-submenu-1{
+    display: flex;
+    justify-content: center;
+}
+
+.rides-add-submenu-1>div, .rides-add-submenu-1>div h3{
+    width: 50%;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.rides-add-submenu-2{
+    display: flex;
+    justify-content: center;
+}
+
+.rides-add-submenu-2>div{
+    width: 50%;
+}
+
+.rides-add-submenu-2>div form{
+    margin: 0.6em 0px;
+    border: solid #d3c54d 2.4px;
+    border-radius: 10px;
+    padding: 1em 2em;
+}
+
+.rides-add-submenu-2>div form input{
+    display: block;
+    margin: 1.2em 0px;
+    width: 90%;
+    padding: 0.1em 0.6em;
+    border-radius: 10px;
+    border: none;
+    background-color: #5ee7dc;
+    color: #1a17b6;
+    font-weight: bold;
+}
+
+.rides-add-submenu-2>div form input::placeholder{
+    font-weight: normal;
+    color: #928181;
+}
+
+.rides-add-submenu-3{
+    display: flex;
+    justify-content: center;
+}
+
+.rides-add-submenu-3>div{
+    width: 50%;
+}
+
+.rides-add-submenu-3>div h3{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
 .rides-container-1{
     display: flex;
     justify-content: center;
