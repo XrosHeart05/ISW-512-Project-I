@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,82 @@
     <link rel="stylesheet" href="../css/nstyle.css">
     <title>Edit a ride</title>
 </head>
+
 <body>
-    
+    <div class="logo-settings">
+        <a href="nmain.html"><img src="../images/css3.png" width="100px" height="100px"></a>
+    </div>
+    <div class="dashboard-menu">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="rides-main.html">Rides</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </div>
+    <div class="dasboard-submenu-father">
+        <div class="dashboard-submenu">
+            <h2>Rides</h2>
+            <div class="dashboard-submenu-2">
+                Welcome Username &nbsp;
+                <div>
+                    <button>
+                        <img src="../images/css3.png">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rides-add-submenu-1">
+        <div>
+            <h3>Edit a ride</h3>
+        </div>
+    </div>
+    <div class="rides-add-submenu-2">
+        <div>
+            <form>
+                <input type="text" placeholder="Ride Name">
+                <input type="text" placeholder="Start from">
+                <input type="text" placeholder="End">
+                <input type="text" placeholder="Description">
+            </form>
+        </div>
+    </div>
+    <div class="rides-add-submenu-3">
+        <div class="horizontal-line"></div>
+    </div>
+    <div class="rides-add-submenu-3">
+        <div>
+            <h3>When</h3>
+        </div>
+    </div>
+    <div class="rides-add-submenu-4">
+        <div class="rides-add-date-box">
+            <div class="rides-add-hour">
+                <form>
+                    <input type="text" placeholder="Departure: --> 07:00">
+                    <input type="text" placeholder="Estimated Arrival: --> 07:45">
+                </form>
+            </div>
+            <div class="rides-add-hour-2">
+                <form>
+                    <h4>Select Days</h4>
+                    <div><label><input type="checkbox" checked>Monday</label></div>
+                    <div><label><input type="checkbox" checked>Tuesday</label></div>
+                    <div><label><input type="checkbox" checked>Wednesday</label></div>
+                    <div><label><input type="checkbox" checked>Thursday</label></div>
+                    <div><label><input type="checkbox">Friday</label></div>
+                    <div><label><input type="checkbox">Saturday</label></div>
+                    <div><label><input type="checkbox">Sunday</label></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="rides-add-submenu-5">
+        <div class="rides-add-submenu-5-1">
+            <button id="cancel">Cancel</button>
+            <button id="save">Save</button>
+        </div>
+    </div>
 </body>
+
 </html>
