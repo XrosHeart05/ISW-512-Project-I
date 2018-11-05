@@ -336,18 +336,23 @@ header nav ul li a:hover{
     border: solid #09edc1 2px;
 }
 
-.rides-add-hour{
-    margin: 1em 0px;
-    width: 50%;
+.rides-add-date-box{
+    display: flex;
     border: solid #d3c54d 2.4px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rides-add-hour{
+    margin: 1em 0px;
+    width: 45%;
+    display: inline-block;
 }
 .rides-add-hour form {
-    display: inline-block;
     margin: 3em 0em;
     margin-left: 3%; 
-    width: 45%;
-    border-right: solid #d3c54d 2px;
+    width: 100%;
 }
 
 .rides-add-hour form input {
@@ -358,8 +363,34 @@ header nav ul li a:hover{
     width: 80%;
 }
 
+.rides-add-hour-2{
+    display: inline-block;
+    width: 45%;
+}
+
 .rides-add-hour-2 form {
-    width: 50%;
+    width: 100%;
+    margin: 1em 10%;
+    align-content: center;
+    border-left: solid #d3c54d 2px;
+}
+
+.rides-add-hour-2 form h4{
+    color: #ffffff;
+    text-align: center;
+    margin: 1em 0px;
+}
+
+.rides-add-hour-2 form input{
+    display: inline-block;
+    border: none;
+    margin: 0.6em 1.2em;
+    margin-left: 5em;
+    cursor: pointer;
+}
+
+.rides-add-hour-2 form label{
+    display: inline-block;
 }
 
 .rides-add-submenu-1{
@@ -418,12 +449,62 @@ header nav ul li a:hover{
 .rides-add-submenu-3>div h3{
     color: #ffffff;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin: 0.6em 0px;
 }
 
 .rides-add-submenu-4{
     display: flex;
     justify-content: center;
+}
+
+.rides-add-submenu-4 > div{
+    width: 50%;
+}
+
+.rides-add-submenu-5{
+    display: flex;
+    justify-content: center;
+}
+
+.rides-add-submenu-5-1{
+    margin: 1em 0px;
+    margin-bottom: 10em;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rides-add-submenu-5-1 button{
+    padding: 0.4em 4em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rides-add-submenu-5-1 #cancel{
+    background-color: #e2201d;
+    color: #ffffff;
+    border: solid #ffffff 2px;
+}
+
+.rides-add-submenu-5-1 #cancel:hover{
+    background-color: #ffffff;
+    color: #e2201d;
+    border: solid #e2201d 2px;
+}
+
+.rides-add-submenu-5-1 #save{
+    background-color: #129919;
+    color: #ffffff;
+    border: solid #ffffff 2px;
+    padding: 0px 8em;
+}
+
+.rides-add-submenu-5-1 #save:hover{
+    background-color: #ffffff;
+    color: #129919;
+    border: solid #129919 2px;
 }
 
 .rides-container-1{
