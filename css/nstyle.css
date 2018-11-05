@@ -208,6 +208,15 @@ header nav ul li a:hover{
     transition: 0.6s;
 }
 
+.horizontal-line{
+    width: 100%;
+    margin: 1em 0.2em;
+    padding: 1px 0px;
+    border-top: solid #138f4b 2px;
+    border-bottom: solid #138f4b 2px;
+    border-radius: 10px;
+}
+
 .log-button-login{
     display: flex;
     justify-content: flex-end;
@@ -327,6 +336,32 @@ header nav ul li a:hover{
     border: solid #09edc1 2px;
 }
 
+.rides-add-hour{
+    margin: 1em 0px;
+    width: 50%;
+    border: solid #d3c54d 2.4px;
+    border-radius: 10px;
+}
+.rides-add-hour form {
+    display: inline-block;
+    margin: 3em 0em;
+    margin-left: 3%; 
+    width: 45%;
+    border-right: solid #d3c54d 2px;
+}
+
+.rides-add-hour form input {
+    border: none;
+    border-radius: 10px;
+    margin: 0.8em 0px;
+    padding: 0.1em 0.6em;
+    width: 80%;
+}
+
+.rides-add-hour-2 form {
+    width: 50%;
+}
+
 .rides-add-submenu-1{
     display: flex;
     justify-content: center;
@@ -384,6 +419,11 @@ header nav ul li a:hover{
     color: #ffffff;
     font-weight: normal;
     font-size: 1.2em;
+}
+
+.rides-add-submenu-4{
+    display: flex;
+    justify-content: center;
 }
 
 .rides-container-1{
