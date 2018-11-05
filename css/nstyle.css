@@ -110,7 +110,7 @@ body::-webkit-scrollbar-thumb {
 
 .dashboard-menu ul li{
     display: inline-block;
-    border: solid #000000 1px;
+    border: solid #09617c 1.6px;
 }
 
 .dashboard-menu ul li:first-child{
@@ -136,11 +136,12 @@ body::-webkit-scrollbar-thumb {
 .dashboard-menu ul li a{
     display: block;
     padding: 1em 3em;
+    color: #d8d52c;
 }
 
 .dashboard-menu ul li a:hover{
-    color: #000000;
-    background-color: #ffffff; 
+    color: #1500d3;
+    background-color: #d8d52c; 
 }
 
 .dasboard-submenu-father{
@@ -166,6 +167,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50%;
     background-color: #ffffff;
     border: solid #000000 1px;
+    cursor: pointer;
 }
 
 .dashboard-submenu-2 div button img{
@@ -512,6 +514,42 @@ header nav ul li a:hover{
     justify-content: center;
 }
 
+.rides-delete-buttons-box{
+    width: 50%;
+}
+
+.rides-delete-buttons-box-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0px;
+}
+
+.rides-delete-buttons-box-2 button{
+    border: none;
+    padding: 1em 3em;
+    border-radius: 10px;
+    background-color: #129919;
+    color: #ffffff;
+    border: solid #ffffff 1.8px;
+    cursor: pointer;
+}
+
+.rides-delete-buttons-box-2 button:hover{
+    border-color: #129919;
+    background-color: #ffffff;
+    color: #129919;
+}
+
+.rides-delete-buttons-box h2{
+    font-size: 1.2em;
+    color: #003850;
+}
+
+.rides-delete-con-1{
+    display: flex;
+    justify-content: center;
+}
+
 .rides-submenu-1{
     width: 50%;
     margin: 3em 0.8em;
@@ -527,7 +565,7 @@ header nav ul li a:hover{
 }
 
 .rides-submenu-1 div button{
-    padding: 0.8em 6em;
+    padding: 0.8em 5em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -542,6 +580,17 @@ header nav ul li a:hover{
     background-color: #ffffff;
     color: #129919;
     border: solid #129919 1.6px; 
+}
+
+.rides-submenu-1 div #delete{
+    background-color: #dd0000;
+    color: #ffffff;
+}
+
+.rides-submenu-1 div #delete:hover{
+    background-color: #ffffff;
+    color: #dd0000;
+    border: solid #dd0000 1.6px;
 }
 
 .rides-submenu-1 div #edit{
