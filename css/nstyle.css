@@ -313,6 +313,28 @@ header nav ul li a:hover{
     color: #ffffff;
 }
 
+.registered{
+    display: none;
+}
+
+.registered div{
+    display: flex;
+    justify-content: center;
+}
+
+.registered div #ok{
+    color: #06b100;
+    font-size: 1.2em;
+    margin: 0.8em 0px;
+    padding: 0.4em 2em;
+    border-radius: 10px;
+    border: solid #003850 2.4px;
+}
+
+.registered div #fail{
+    color:red;
+}
+
 .results-ride-1{
     margin: 0.5em 10em;
 }

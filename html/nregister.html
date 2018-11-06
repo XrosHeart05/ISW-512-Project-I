@@ -15,19 +15,25 @@
             <img src="../images/css3.png" width="100px" height="100px">
         </a>
     </div>
+    <div class="registered" id="registered">
+        <div>
+            <h3 id="ok">You're now registered</h3>
+        </div>
+    </div>
     <div class="sign-up-box">
         <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="tel" placeholder="Phone-number">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
-            <input type="password" placeholder="Re-password">
+            <input type="text" placeholder="First Name" id="fir-name">
+            <input type="text" placeholder="Last Name" id="las-name">
+            <input type="tel" placeholder="Phone-number" id="pho-num">
+            <input type="text" placeholder="Username" id="username">
+            <input type="password" placeholder="Password" id="pass">
+            <input type="password" placeholder="Re-password" id="re-pass">
         </form>
     </div>
     <div class="sign-up-button-box">
-        <button onclick="location.href='nlogin.html'">Sign Up</button>
+        <button onclick="validateUser()">Sign Up</button>
     </div>
+    <script src="../js/rides.js"></script>
 </body>
 
 </html>
